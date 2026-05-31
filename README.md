@@ -2,7 +2,7 @@
 
 A fast, filterable web platform to search and explore **39,000+ Indian colleges** sourced from the official AICTE dashboard. Built with Next.js and React.
 
-⭐ Live Preview: [https://college-api-nextjs-lyart.vercel.app/](https://college-api-nextjs-lyart.vercel.app/) 🪴
+⭐ Live Preview: [https://college-api-nextjs-lyart.vercel.app/](https://college-api-nextjs-lyart.vercel.app/) 
 
 
 ![Home](./public/home-1.png)
@@ -67,14 +67,14 @@ A fast, filterable web platform to search and explore **39,000+ Indian colleges*
 
 ### Installation
 
-#### Clone the repository
+##### 1) Clone the repository
 
 ```bash
 git clone https://github.com/anburocky3/indian-colleges-data-ui.git
 cd college-api-nextjs
 ```
 
-#### Install dependencies
+##### 2) Install dependencies
 ```
 npm install
 ```
@@ -86,16 +86,6 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### Production Build
-
-```bash
-npm run build
-```
-```
-npm run start
-```
----
 
 ## 🔌 API Reference
 
