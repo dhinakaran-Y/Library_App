@@ -67,14 +67,14 @@ A fast, filterable web platform to search and explore **39,000+ Indian colleges*
 
 ### Installation
 
-##### 1) Clone the repository
+**1) Clone the repository**
 
 ```bash
 git clone https://github.com/anburocky3/indian-colleges-data-ui.git
 cd college-api-nextjs
 ```
 
-##### 2) Install dependencies
+**2) Install dependencies**
 ```
 npm install
 ```
