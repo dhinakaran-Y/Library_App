@@ -2,22 +2,18 @@
 
 A fast, filterable web platform to search and explore **39,000+ Indian colleges** sourced from the official AICTE dashboard. Built with Next.js and React.
 
+⭐ Live Preview: [https://college-api-nextjs-lyart.vercel.app/](https://college-api-nextjs-lyart.vercel.app/) 🪴
+
+
 ![Home](./public/home-1.png)
 
 ---
 
 ## ✨ Features
 
-- **Smart Search** — Find colleges by name with debounced live search
-- **Cascading Filters** — Filter by State → District → Institution Type → University → Degree → Programme, with each filter contextually narrowing the next
 - **Auto-location Detection** — Automatically selects the user's state on first load using IP geolocation
-- **Course Viewer** — View all available programmes and courses offered by any college in a modal dialog
-- **One-click Copy** — Copy any college field (name, address, university, etc.) to clipboard directly from the card
 - **Google Maps Integration** — Open any college location in Google Maps with a single click
 - **Export to Excel** — Download the current filtered results as a styled `.xlsx` file
-- **Active Filter Badges** — See all active filters at a glance with live results count
-- **Dark UI** — Polished dark-mode interface with glassmorphism styling
-
 ---
 
 ## 🖼️ Screenshots
@@ -71,12 +67,15 @@ A fast, filterable web platform to search and explore **39,000+ Indian colleges*
 
 ### Installation
 
+#### Clone the repository
+
 ```bash
-# Clone the repository
 git clone https://github.com/anburocky3/indian-colleges-data-ui.git
 cd college-api-nextjs
+```
 
-# Install dependencies
+#### Install dependencies
+```
 npm install
 ```
 
@@ -92,15 +91,10 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ```bash
 npm run build
+```
+```
 npm run start
 ```
-
-### Lint
-
-```bash
-npm run lint
-```
-
 ---
 
 ## 🔌 API Reference
@@ -110,20 +104,6 @@ This project consumes the public **[Indian Colleges List (Datasets)](https://ind
 
 ---
 
-## 📤 Excel Export
-
-The filtered college list can be exported as a styled `.xlsx` file with the following columns:
-
-- **Name** — College name (title-cased)
-- **District**
-- **State**
-- **Type** — Institution type (e.g., Government, Private)
-- **University** — Affiliated university
-- **Address**
-
-Headers are styled with a sky-blue background and white bold text.
-
----
 
 ## 👥 Contributors
 
